@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galerie</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "../css-files/Galerie.css">
+  </head>
+<body>
+<div id = "start"></div>
+    <div class = "navbar-container">
+         <div class = "navbar-item-container">
+         <a href="001HaupteSeite.html" class="navbar-link">Home</a>
+         <a href="002Galerie.html" class="navbar-link active">Galerie</a>
+         <a href="003Kunden.html" class="navbar-link">Kunden</a>
+         <a href="004AboutUs.html" class="navbar-link">About Us</a>
+         </div>
+   </div>
+<br>
+<div class ="title-container col-8 col-sm-10 col-lg-8">
+    <h1> Willkommen Teilnehmer</h1>
+<br>
+    <a href="#ende"><button class= "galerie-end-button btn-full"> Ans Ende der Galerie </button></a>
+</div>
+
+<br>
+<br>
+<div class="galerie-content-container col-8 col-sm-10 col-lg-8">
+  <div class="galerie-conten row">
+     <div class="galerie-img-item galerie-item float col-lg-4">
+       <img src ="https://www.turn-on.de/media/cache/resolve/article_images/media/cms/2020/10/among-us-promo.jpg?445538" width="150" alt="cosmos">
+       <p><cite>Das Bild </cite> Via <a href="https://www.turn-on.de/article/among-us-free-to-play-so-spielst-du-kostenlos-auf-pc-mac-605643"> www.turn-on.de </a></p>
+     </div>
+
+     <div class = "galerie-item galerie-img-item float col-lg-4">
+       <picture>
+           <source srcset="../resources/winterbild-eins.jpg"  media="all">
+           <img src="../resources/winterbild-eins.jpg" width="350" alt="winterbilder" type="jpg">
+       </picture>
+    <p> <cite>Das Bild</cite> Via www.Winterbilder.net </p>
+     </div>
+
+    <div class="galerie-img-item galerie-item float col-lg-4">
+          <img src ="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="flowers">
+          <p><cite> Das Bild</cite> Via <a href="https://www.pexels.com/de-de/suche/blumen/"> www.pexels.com </a></p>
+    </div>
+
+
+    <div class="galerie-item float col-lg-4 galerie-audio-item">
+      <audio controls>
+          <source src="../resources/disney-intro-full-hd-1080p.mp3" type="audio/mpeg">
+      </audio>
+          <p> <cite>Die Musik mp3</cite> Via <a href="https://zvukipro.com/user-interface/649-zvuki-dlja-sozdanija-igr.html">zvukipro.com</a></p>
+    </div>
+
+
+    <div class="galerie-item float col-lg-4 galerie-video-item">
+      <video controls muted>
+        <source src="../resources/Video.mp4" width="250" type="video/mp4">
+      </video>
+        <p> <cite>Das Video mp4</cite> Via <a href="https://www.freestockimages.ru/video"> www.freestockimages.ru </a></p>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+   <div id="ende" class="galerie-end-container col-sm-7 col-lg-7">
+    <h3> Du hast das Ende der Galerie erreicht </h3>
+    <br>
+    <a href="#start"><button class= "galerie-start-button btn-full" > Zurück an den Anfang der Galerie </button></a>
+<br>
+<br>
+   </div>
+
+  </body>
+</html>
